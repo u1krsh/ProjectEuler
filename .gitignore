@@ -1,0 +1,30 @@
+# C++ build outputs
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+
+# Common build directories
+build/
+out/
+debug/
+release/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Debugger and IDE user state
+.vscode/*.user
+.vscode/launch.json
+.vscode/*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
