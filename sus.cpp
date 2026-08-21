@@ -9,7 +9,6 @@ bool sus(string s1, string s2){
 
     unordered_map<char,int> cnt1;
     unordered_map<char,int> cnt2;
-
     for(int i =0;i< s1.length();i++){
         cnt1[s1[i]]++;
         cnt2[s2[i]]++;
