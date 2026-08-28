@@ -26,6 +26,7 @@ int main() {
     for (int row = n - 2; row >= 0; row--) {
         for (int col = 0; col <= row; col++) {
             dp[row][col] += max(dp[row+1][col], dp[row+1][col+1]);
+            
         }
     }
 
